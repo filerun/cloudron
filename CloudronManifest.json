@@ -1,0 +1,39 @@
+{
+  "id": "com.filerun.cloudronapp",
+  "title": "FileRun",
+  "author": "FileRun Lda",
+  "version": "1.0.0",
+  "contactEmail": "info@filerun.com",
+  "description": "file://DESCRIPTION.md",
+  "tagline": "Google Drive alternative",
+  "tags": [
+    "sync",
+    "file sharing",
+    "files",
+    "gallery",
+    "dropbox",
+    "google",
+    "drive",
+    "photos"
+  ],
+  "healthCheckPath": "/",
+  "httpPort": 8000,
+  "manifestVersion": 2,
+  "website": "https://filerun.com",
+  "icon": "file://logo.png",
+  "changelog": "file://CHANGELOG",
+  "optionalSso": true,
+  "addons": {
+    "localstorage": {},
+    "mysql": {},
+    "sendmail": {}
+  },
+  "postInstallMessage": "file://POSTINSTALL.md",
+  "mediaLinks": [
+    "https://filerun.com/images/2021/screenshot.jpg"
+  ],
+  "memoryLimit": 629145600,
+  "minBoxVersion": "5.3.0",
+  "forumUrl": "https://feedback.filerun.com",
+  "documentationUrl": "https://docs.filerun.com"
+}
